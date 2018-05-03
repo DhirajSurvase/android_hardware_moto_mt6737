@@ -1,1 +1,1 @@
-HAL and helper libraries for Moto c plus..
+HAL and helper libraries for Moto C Plus
