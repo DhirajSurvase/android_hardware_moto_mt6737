@@ -1,3 +1,5 @@
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := $(my-dir)
+ifeq ($(TARGET_DEVICE),panelli)
+include $(call first-makefiles-under,$(LOCAL_PATH))
+endif
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
